@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Premium Land Listings</title>
+<meta name="description" content="Curated investment-grade land — explore photos, videos, and locations." />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <div class="brand" id="brandName"></div>
+    <nav>
+      <a href="#listings">Listings</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<nav id="landPicker" class="land-picker" aria-label="Choose a land"></nav>
+
+<main id="listings" class="container">
+  <div id="propertyList" class="property-list"></div>
+</main>
+
+<footer id="contact">
+  <div class="container footer-row">
+    <a id="contactWhatsapp" target="_blank" rel="noopener" class="footer-link">
+      <span id="contactPhoneDisplay"></span>
+    </a>
+    <span class="footer-sep">·</span>
+    <a id="contactEmail" class="footer-link">
+      <span id="contactEmailDisplay"></span>
+    </a>
+  </div>
+</footer>
+
+<!-- Lightbox for photos -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">&times;</span>
+  <img id="lightboxImg" alt="" />
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,482 @@
+// ============================================
+// EDIT THIS FILE TO ADD/UPDATE LAND LISTINGS
+// ============================================
+// HOW TO ADD A NEW PROPERTY:
+//   1. Copy any { ... } block in PROPERTIES below
+//   2. Edit the values
+//   3. Drop photos into  assets/photos/   and videos into  assets/videos/
+//   4. Reference the file paths in `photos` and `videos`
+//
+// COORDINATES:
+//   Open Google Maps, right-click the spot, the lat,lng appears at the top.
+//   Paste as: coords: { lat: -8.6442, lng: 115.1133 }
+// ============================================
+
+const SITE = {
+  brand: "Mitchel Land Inquiry",
+  tagline: "Curated land opportunities in Bali — explore photos, videos, and locations.",
+  contactPhone: "+62 821 1511 1211",
+  contactEmail: "info@thevillamanagers.com",
+  contactWhatsapp: "6282115111211", // country code + number, no + or spaces
+};
+
+const PROPERTIES = [
+  {
+    id: "lot-001",
+    title: "Tumbakbayuh — 16 are, Mixed Zone (Pink + Yellow)",
+    location: "Tumbakbayuh",
+    price: "IDR 1.3 billion / are",
+    totalPrice: "IDR 20.8 billion",
+    size: "1,600 m² (16 are)",
+    status: "Available", // Available | Reserved | Sold
+    certificate: "TBC — confirming ownership documents",
+    zoning: "Front 4–5 are: Pink Zone (commercial / tourism). Remainder: Yellow Zone (residential).",
+    highlights: [
+      "Strategic location in a fast-growing area",
+      "Flexible mixed-use: commercial frontage with residential behind",
+    ],
+    description: "Rectangular plot in Tumbakbayuh with direct main-road frontage and a river along the rear boundary — well suited to villas, a café, or boutique commercial use at the front with residential behind.",
+    details: [
+      { label: "Land shape", value: "Rectangular" },
+      { label: "Dimensions", value: "20 m wide × 80 m deep" },
+      { label: "Road access", value: "Main road frontage" },
+      { label: "Rear boundary", value: "River" },
+      { label: "Zoning (front)", value: "Pink zone — 4–5 are" },
+      { label: "Zoning (rear)", value: "Yellow zone — remainder" },
+      { label: "Price per are", value: "IDR 1.3 billion" },
+      { label: "Total price", value: "IDR 20.8 billion" },
+    ],
+    photos: [
+      // Drop photos in assets/photos/ and list them here, e.g.
+      // "assets/photos/lot-001-1.jpg",
+    ],
+    videos: [
+      "assets/videos/lot-001.mp4",
+    ],
+    coords: { lat: -8.627871, lng: 115.134832 }, // Exact pin from client
+  },
+
+  {
+    id: "lot-002",
+    title: "Pererenan — 27.4 are, Pink Zone, 300m to Beach",
+    location: "Jl. Pantai Pererenan",
+    price: "IDR 2.7 billion / are",
+    totalPrice: "IDR 73.98 billion (negotiable directly with owner)",
+    size: "2,740 m² (27.4 are)",
+    status: "Available",
+    certificate: "TBC — confirming ownership documents",
+    zoning: "Pink Zone — Tourism Accommodation",
+    highlights: [
+      "Rare river frontage along the rear boundary",
+      "Negotiable price, directly with the owner",
+    ],
+    description: "Commercial land just 300 m from Pererenan Beach on Jl. Pantai Pererenan, flat and ready to build with a river along the rear boundary — very suitable for tourism businesses such as a villa, resort, or café.",
+    details: [
+      { label: "Land area", value: "27.4 are (2,740 m²)" },
+      { label: "Front width", value: "27 m (on Jl. Pantai Pererenan)" },
+      { label: "Rear width", value: "17 m (along river)" },
+      { label: "Side length (left)", value: "106 m" },
+      { label: "Side length (right)", value: "119 m" },
+      { label: "Topography", value: "Flat, ready to build" },
+      { label: "Zoning", value: "Pink — Tourism Accommodation" },
+      { label: "Distance to beach", value: "300 m" },
+      { label: "Price per are", value: "IDR 2.7 billion" },
+      { label: "Total price", value: "IDR 73.98 billion (negotiable)" },
+    ],
+    photos: [
+      "assets/photos/lot-002-diagram.jpg",
+      "assets/photos/lot-002-photo.jpg",
+      "assets/photos/lot-002-1.jpg",
+      "assets/photos/lot-002-2.jpg",
+      "assets/photos/lot-002-3.jpg",
+      "assets/photos/lot-002-4.jpg",
+      "assets/photos/lot-002-5.jpg",
+      "assets/photos/lot-002-6.jpg",
+      "assets/photos/lot-002-7.jpg",
+      "assets/photos/lot-002-8.jpg",
+      "assets/photos/lot-002-9.jpg",
+      "assets/photos/lot-002-10.jpg",
+    ],
+    videos: [],
+    coords: { lat: -8.6478172, lng: 115.124164 }, // Exact pin from client
+  },
+  {
+    id: "lot-007",
+    title: "Sempol, Pererenan — 9 are, Next to Miralofts",
+    location: "Jalan Raya Sempol, Pererenan",
+    price: "IDR 1.8 billion / are",
+    totalPrice: "~IDR 16.2 billion (based on ~9 are)",
+    size: "~900 m² (~9 are) — 15 m × 60 m",
+    status: "Available",
+    certificate: "TBC",
+    zoning: "TBC — please confirm",
+    highlights: [
+      "Right next to the Miralofts villa development",
+      "Strong main-road exposure",
+    ],
+    description: "On the side of Jalan Raya Sempol, directly south of the Miralofts villa property (adjacent to the Miralofts wall) — excellent main-road exposure.",
+    details: [
+      { label: "Front width", value: "15 m" },
+      { label: "Depth", value: "~60 m" },
+      { label: "Approx. area", value: "~900 m² (~9 are)" },
+      { label: "Road access", value: "Jalan Raya Sempol (main road)" },
+      { label: "Adjacent to", value: "Miralofts (south side)" },
+      { label: "Price per are", value: "IDR 1.8 billion" },
+      { label: "Total price (approx)", value: "~IDR 16.2 billion" },
+    ],
+    photos: [
+      "assets/photos/lot-007-1.jpg",
+    ],
+    videos: [
+      "assets/videos/lot-007.mp4",
+    ],
+    coords: null, // Send Google Maps pin for exact location
+  },
+  {
+    id: "lot-008",
+    title: "Echo Beach Canggu — 45.25 are, Pink Zone, 350m to Beach",
+    location: "Jl. Pantai Batu Mejan, Echo Beach, Canggu",
+    price: "IDR 2.5 billion / are (per 100 m²)",
+    totalPrice: "IDR 113.125 billion",
+    size: "4,525 m² (45.25 are)",
+    status: "Available",
+    zoning: "Pink Zone — Tourism",
+    highlights: [
+      "Prime Canggu location",
+      "Ideal for a resort, villa development, or beach club",
+    ],
+    description: "Premium land at Echo Beach Canggu, only 350 m from the beach on Jl. Pantai Batu Mejan — ideal for a boutique resort, villa development, or beach-front commercial use.",
+    details: [
+      { label: "Land area", value: "45.25 are (4,525 m²)" },
+      { label: "Front width", value: "40 m" },
+      { label: "Road width", value: "8 m" },
+      { label: "Zoning", value: "Pink — Tourism" },
+      { label: "Distance to beach", value: "350 m" },
+      { label: "Price per are", value: "IDR 2.5 billion" },
+      { label: "Total price", value: "IDR 113.125 billion" },
+    ],
+    photos: [
+      "assets/photos/lot-008-1.jpg",
+    ],
+    videos: [],
+    documents: [
+      { title: "Property Information Sheet (Dauh Yeh)", file: "assets/docs/lot-008-info.pdf" },
+    ],
+    coords: { lat: -8.653095, lng: 115.127876 }, // Exact pin from client
+  },
+  {
+    id: "lot-009",
+    title: "Echo Beach Canggu — 23.7 are, Pink Zone, 500m to Beach",
+    location: "Echo Beach Golden Intersection, Canggu",
+    price: "IDR 3.2 billion / are (NET, firm — direct from owner)",
+    totalPrice: "IDR 75.84 billion NET",
+    size: "2,370 m² (23.7 are)",
+    status: "Available",
+    certificate: "TBC",
+    zoning: "Pink Zone — Tourism",
+    highlights: [
+      "Super rare plot at the Echo Beach golden intersection",
+      "Right next to Garden Canggu Restaurant",
+      "Direct from owner",
+      "Price is firm and non-negotiable",
+    ],
+    description: "A rare premium plot at the golden intersection of Echo Beach Canggu — just 500 m from the beach and directly next to Garden Canggu Restaurant.",
+    details: [
+      { label: "Land area", value: "23.7 are (2,370 m²)" },
+      { label: "Front width", value: "30 m" },
+      { label: "Distance to beach", value: "500 m" },
+      { label: "Location landmark", value: "Next to Garden Canggu Restaurant" },
+      { label: "Zoning", value: "Pink — Tourism" },
+      { label: "Owners", value: "1 (local)" },
+      { label: "Price per are", value: "IDR 3.2 billion (NET, firm)" },
+      { label: "Total price", value: "IDR 75.84 billion (NET, direct from owner)" },
+    ],
+    photos: [
+      "assets/photos/lot-009-1.jpg",
+      "assets/photos/lot-009-2.jpg",
+      "assets/photos/lot-009-3.jpg",
+      "assets/photos/lot-009-4.jpg",
+    ],
+    videos: [
+      "assets/videos/lot-009.mp4",
+      "assets/videos/lot-010.mp4",
+    ],
+    coords: { lat: -8.651445, lng: 115.129051 }, // Exact pin from client
+  },
+  {
+    id: "lot-011",
+    title: "Echo Beach Canggu — 20 are, Pink Zone, 100m to Beach",
+    location: "Echo Beach Canggu",
+    price: "IDR 3.5 billion / are (implied)",
+    totalPrice: "IDR 70 billion NET (global price)",
+    size: "2,000 m² (20 are)",
+    status: "Available",
+    certificate: "TBC",
+    zoning: "TBC — please confirm (likely Pink / Tourism)",
+    highlights: [
+      "Direct from a single owner — net global price",
+      "Echo Beach Canggu prime location",
+    ],
+    description: "Prime plot at Echo Beach Canggu, only ~100 m from the beach.",
+    details: [
+      { label: "Land area", value: "20 are (2,000 m²)" },
+      { label: "Front width", value: "27 m" },
+      { label: "Distance to beach", value: "100 m (per latest message)" },
+      { label: "Implied price per are", value: "IDR 3.5 billion" },
+      { label: "Total price", value: "IDR 70 billion NET (global)" },
+    ],
+    photos: [],
+    videos: [],
+    coords: { lat: -8.6529483, lng: 115.1274974 }, // Exact pin from client
+  },
+  {
+    id: "lot-013",
+    title: "Batu Bolong, Canggu — 24.55 are, 3 min to Beach",
+    location: "Batu Bolong area, Canggu",
+    price: "IDR 2.6 billion / are (NET)",
+    totalPrice: "IDR 63.83 billion NET",
+    size: "2,455 m² (24.55 are)",
+    status: "Available",
+    certificate: "TBC",
+    zoning: "TBC — please confirm",
+    highlights: [
+      "River boundary on two sides for privacy and an open outlook",
+      "Asphalt road access on both sides",
+      "Direct from owner",
+    ],
+    description: "Premium plot in the Batu Bolong area of Canggu — a river borders two sides for privacy and an open outlook, about 3 minutes to Batu Bolong Beach.",
+    details: [
+      { label: "Land area", value: "24.55 are (2,455 m²)" },
+      { label: "Front width", value: "40 m" },
+      { label: "Road access", value: "5 m asphalt road on both sides" },
+      { label: "River boundary", value: "2 sides" },
+      { label: "Distance to beach", value: "3 minutes to Batu Bolong Beach" },
+      { label: "Price per are", value: "IDR 2.6 billion (NET)" },
+      { label: "Total price", value: "IDR 63.83 billion NET" },
+    ],
+    photos: [
+      "assets/photos/lot-013-1.jpg",
+      "assets/photos/lot-013-2.jpg",
+      "assets/photos/lot-013-3.jpg",
+      "assets/photos/lot-013-4.jpg",
+      "assets/photos/lot-013-5.jpg",
+      "assets/photos/lot-013-6.jpg",
+      "assets/photos/lot-013-7.jpg",
+      "assets/photos/lot-013-8.jpg",
+      "assets/photos/lot-013-9.jpg",
+    ],
+    videos: [],
+    coords: null, // Send Google Maps pin for exact location
+  },
+  {
+    id: "lot-015",
+    title: "Echo Beach — 45 are, Pink Zone",
+    location: "Echo Beach Canggu area",
+    price: "IDR 2.44 billion / are (implied)",
+    totalPrice: "IDR 110 billion",
+    size: "4,500 m² (45 are)",
+    status: "Available",
+    zoning: "Pink Zone — Tourism",
+    highlights: [
+      "Held by 3 local owners",
+      "Echo Beach Canggu area",
+    ],
+    description: "Plot in the Echo Beach Canggu area, held by three local owners.",
+    details: [
+      { label: "Land area", value: "45 are (4,500 m²)" },
+      { label: "Front width", value: "40 m" },
+      { label: "Depth", value: "112 m" },
+      { label: "Zoning", value: "Pink — Tourism" },
+      { label: "Owners", value: "3 local owners" },
+      { label: "Total price", value: "IDR 110 billion" },
+      { label: "Implied price per are", value: "IDR 2.44 billion" },
+    ],
+    photos: [],
+    videos: [],
+    coords: { lat: -8.6529483, lng: 115.1274974 }, // Echo Beach Canggu area
+  },
+  {
+    id: "lot-016",
+    title: "Premium Land — 12.18 are, Pink Zone",
+    location: "West/South facing, premium location",
+    price: "IDR 1.75 billion / are",
+    totalPrice: "IDR 21.315 billion",
+    size: "1,218 m² (12.18 are) — 688 m² + 530 m²",
+    status: "Available",
+    certificate: "2 certificates (688 m² + 530 m²)",
+    zoning: "Pink Zone — Tourism",
+    highlights: [
+      "West & South facing for great natural light",
+      "Dry and ready to build",
+      "Flexible use: villa, restaurant, homestay, residence, or investment",
+    ],
+    description: "Premium plot facing West and South for great light, dry and ready to build — ideal for a villa, restaurant, homestay, residence, or investment.",
+    details: [
+      { label: "Land area", value: "12.18 are (1,218 m²)" },
+      { label: "Plot 1", value: "688 m²" },
+      { label: "Plot 2", value: "530 m²" },
+      { label: "Front width", value: "47.5 m" },
+      { label: "Orientation", value: "West & South facing" },
+      { label: "Topography", value: "Dry, ready to build" },
+      { label: "Road access", value: "6 m" },
+      { label: "Zoning", value: "Pink — Tourism" },
+      { label: "Permitted uses", value: "Villa, commercial villa, residence, restaurant, homestay, investment" },
+      { label: "Price per are", value: "IDR 1.75 billion" },
+      { label: "Total price", value: "IDR 21.315 billion" },
+    ],
+    photos: [
+      "assets/photos/lot-016-1.jpg",
+      "assets/photos/lot-016-2.jpg",
+    ],
+    videos: [],
+    coords: { lat: -8.6430302, lng: 115.1255085 }, // Exact pin from client
+  },
+  {
+    id: "lot-017",
+    title: "Batu Bolong, Canggu — 11 are, 600m to Beach",
+    location: "Batu Bolong, Canggu",
+    price: "IDR 2.3 billion / are (NET)",
+    totalPrice: "IDR 25.3 billion NET",
+    size: "1,100 m² (11 are) — 34.5 m × 32 m",
+    status: "Available",
+    zoning: "C-1 — Commercial / Residential (Komersial Perumahan)",
+    highlights: [
+      "Surrounded by cafés and villas",
+      "Directly next to Gigi Susu Canggu",
+      "Direct from owner",
+    ],
+    description: "Premium plot in Batu Bolong, Canggu, about 600 m from Batu Bolong Beach — surrounded by cafés and villas, directly next to Gigi Susu Canggu.",
+    details: [
+      { label: "Land area", value: "11 are (1,100 m²)" },
+      { label: "Dimensions", value: "34.5 m × 32 m" },
+      { label: "Zoning", value: "C-1 — Commercial / Residential" },
+      { label: "Distance to beach", value: "600 m to Batu Bolong Beach" },
+      { label: "Location landmark", value: "Next to Gigi Susu Canggu" },
+      { label: "Price per are", value: "IDR 2.3 billion (NET)" },
+      { label: "Total price", value: "IDR 25.3 billion (NET)" },
+    ],
+    photos: [
+      "assets/photos/lot-017-1.jpg",
+      "assets/photos/lot-017-2.jpg",
+      "assets/photos/lot-017-3.jpg",
+    ],
+    videos: [],
+    coords: null, // Send Google Maps pin for exact location
+  },
+  {
+    id: "lot-003",
+    title: "Pererenan — 15 are, Yellow Zone",
+    location: "Pererenan, Tumbak Bayuh",
+    price: "IDR 1.7 billion (negotiable)",
+    totalPrice: "",
+    size: "1,500 m² (15 are)",
+    status: "Available",
+    zoning: "Yellow Zone (residential)",
+    highlights: [
+      "Rare river and rice-field views",
+      "Two-section plot divided by a small alley — flexible development",
+    ],
+    description: "Land in Pererenan with rare river and rice-field views, on a main road about 10 minutes from Pererenan Beach. Split into two sections by a small alley, giving flexible development options.",
+    details: [
+      { label: "Land area", value: "15 are (1,500 m²)" },
+      { label: "Section A (front)", value: "420 m² — road side" },
+      { label: "Section B (rear)", value: "1,200 m² — to the river" },
+      { label: "Zoning", value: "Yellow — residential" },
+      { label: "Road access", value: "Main road frontage" },
+      { label: "Views", value: "River + rice field" },
+      { label: "Distance to beach", value: "~10 min to Pererenan Beach" },
+      { label: "Price", value: "IDR 1.7 billion (negotiable)" },
+    ],
+    photos: [
+      "assets/photos/lot-003-diagram.jpg",
+      "assets/photos/lot-003-1.jpg",
+      "assets/photos/lot-003-2.jpg",
+      "assets/photos/lot-003-3.jpg",
+      "assets/photos/lot-003-4.jpg",
+    ],
+    videos: [],
+    coords: { lat: -8.6276186, lng: 115.1350102 }, // Exact pin from client (Jl. Raya Tumbakbayuh)
+  },
+  {
+    id: "lot-005",
+    title: "Sempol, Pererenan — 50 are, Yellow Zone",
+    location: "Sempol, Pererenan",
+    price: "IDR 1.7 billion / are",
+    totalPrice: "IDR 85 billion",
+    size: "5,000 m² (50 are)",
+    status: "Available",
+    certificate: "2 certificates",
+    zoning: "Yellow Zone (residential) — please confirm if any part is pink zone",
+    highlights: [
+      "Sold as two separate land titles",
+      "Located in Sempol, Pererenan",
+    ],
+    description: "Large plot in Sempol, Pererenan, with paved road access — sold as two separate titles.",
+    details: [
+      { label: "Land area", value: "50 are (5,000 m²)" },
+      { label: "Zoning", value: "Yellow — residential" },
+      { label: "Certificates", value: "2 separate titles" },
+      { label: "Road access", value: "Paving road" },
+      { label: "Price per are", value: "IDR 1.7 billion" },
+      { label: "Total price", value: "IDR 85 billion" },
+    ],
+    photos: [
+      "assets/photos/lot-005-1.jpg",
+    ],
+    videos: [],
+    coords: null, // Send a Google Maps pin link to set exact location
+  },
+  {
+    id: "lot-006",
+    title: "Pererenan — 17 are, Yellow Zone",
+    location: "Pererenan",
+    price: "IDR 1.7 billion / are",
+    totalPrice: "IDR 28.9 billion",
+    size: "1,700 m² (17 are)",
+    status: "Available",
+    certificate: "TBC",
+    zoning: "Yellow Zone (residential)",
+    highlights: [],
+    description: "Residential land in Pererenan.",
+    details: [
+      { label: "Land area", value: "17 are (1,700 m²)" },
+      { label: "Zoning", value: "Yellow — residential" },
+      { label: "Price per are", value: "IDR 1.7 billion" },
+      { label: "Total price", value: "IDR 28.9 billion" },
+    ],
+    photos: [],
+    videos: [
+      "assets/videos/lot-006-1.mp4",
+      "assets/videos/lot-006-2.mp4",
+    ],
+    coords: { lat: -8.631990, lng: 115.132225 }, // Exact pin from client
+  },
+  {
+    id: "lot-012",
+    title: "Padang Linjong — 8 are, Yellow Zone",
+    location: "Padang Linjong, Canggu",
+    price: "IDR 2.8 billion / are (NET)",
+    totalPrice: "IDR 22.4 billion NET",
+    size: "800 m² (8 are)",
+    status: "Available",
+    certificate: "TBC",
+    zoning: "Yellow Zone (residential)",
+    highlights: [
+      "Surrounded by garden and rice field",
+      "Direct from owner",
+    ],
+    description: "Residential land in Padang Linjong, Canggu, surrounded by garden and rice field.",
+    details: [
+      { label: "Land area", value: "8 are (800 m²)" },
+      { label: "Zoning", value: "Yellow — residential" },
+      { label: "Neighboring uses", value: "Garden, rice field" },
+      { label: "Price per are", value: "IDR 2.8 billion (NET)" },
+      { label: "Total price", value: "IDR 22.4 billion NET" },
+    ],
+    photos: [
+      "assets/photos/lot-012-1.jpg",
+    ],
+    videos: [],
+    coords: { lat: -8.640654, lng: 115.140213 }, // Exact pin from client
+  }
+];
