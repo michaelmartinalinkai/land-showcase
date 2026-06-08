@@ -478,5 +478,34 @@ const PROPERTIES = [
     ],
     videos: [],
     coords: { lat: -8.640654, lng: 115.140213 }, // Exact pin from client
+  },
+  {
+    id: "lot-018",
+    title: "9 are, Yellow Zone — 200 m to Beach",
+    location: "Bali — coastal (exact location on map pin)",
+    price: "IDR 2.2 billion / are",
+    totalPrice: "IDR 19.8 billion",
+    size: "900 m² (9 are)",
+    status: "Available",
+    certificate: "Freehold — TBC",
+    zoning: "Yellow Zone (residential)",
+    highlights: [
+      "Only 200 m from the beach",
+    ],
+    description: "Yellow-zone residential land of 9 are, just 200 m from the beach. See the video walkthrough and the map pin for the exact location.",
+    details: [
+      { label: "Land area", value: "9 are (900 m²)" },
+      { label: "Dimensions", value: "TBC" },
+      { label: "Zoning", value: "Yellow — residential" },
+      { label: "Freehold", value: "TBC" },
+      { label: "Distance to beach", value: "200 m" },
+      { label: "Price per are", value: "IDR 2.2 billion" },
+      { label: "Total price", value: "IDR 19.8 billion" },
+    ],
+    photos: [],
+    videos: [
+      "assets/videos/lot-018.mp4",
+    ],
+    coords: { lat: -8.645641, lng: 115.117438 }, // from client Google Maps pin
   }
 ];
