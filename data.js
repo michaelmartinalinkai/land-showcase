@@ -22,6 +22,41 @@ const SITE = {
 
 const PROPERTIES = [
   {
+    id: "lot-021",
+    title: "Pererenan — 27.4 are, Commercial/Tourism (Pink · ITR) — 300m to Beach",
+    location: "Pererenan (300 m from beach)",
+    price: "IDR 2.7 billion / are",
+    totalPrice: "IDR 73.98 billion (negotiable directly with owner) · \u2248 AUD 5.77M",
+    size: "2,740 m\u00b2 (27.4 are)",
+    status: "Available",
+    certificate: "TBC — direct with owner (friend has owner connection)",
+    zoning: "Pink Zone · ITR Akomodasi Wisata (tourism accommodation)",
+    highlights: [
+      "Commercial / tourism zoning (ITR Akomodasi Wisata)",
+      "Only 300 m from Pererenan beach",
+      "27 m frontage \u2014 flat land, ready to build",
+      "Suited to any tourism-supporting business",
+    ],
+    description: "Commercial land 300 m from Pererenan beach. 27.4 are, pink zone / ITR tourism-accommodation, 27 m frontage, flat and ready to build \u2014 ideal for any tourism business (villas, beach club, commercial). Negotiable directly with the owner (friend has an owner connection). NOTE: likely the same plot as lot-002 \u2014 review/merge.",
+    details: [
+      { label: "Land size", value: "2,740 m\u00b2 (27.4 are)" },
+      { label: "Zoning", value: "Pink \u00b7 ITR Akomodasi Wisata" },
+      { label: "Distance to beach", value: "300 m" },
+      { label: "Frontage", value: "27 m" },
+      { label: "Contour", value: "Flat, ready to build" },
+      { label: "Price per are", value: "IDR 2.7 billion" },
+      { label: "Total price", value: "IDR 73.98 billion (nego, direct with owner)" },
+    ],
+    photos: [
+      "assets/photos/lot-021-1.jpg",
+      "assets/photos/lot-021-2.jpg",
+      "assets/photos/lot-021-3.jpg",
+    ],
+    videos: [],
+    coords: { lat: -8.6470, lng: 115.1290 },
+  },
+
+  {
     id: "lot-020",
     title: "Seseh (Munggu) — 28 are, Pink Zone — LEASE, 200m to Beach",
     location: "Seseh / Munggu area",
