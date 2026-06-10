@@ -22,6 +22,43 @@ const SITE = {
 
 const PROPERTIES = [
   {
+    id: "lot-022",
+    title: "Pererenan — 45 are, Pink Zone, Highway Edge \u2014 toward Beach",
+    location: "Pererenan (highway frontage)",
+    price: "IDR 2 billion / are",
+    totalPrice: "IDR 90 billion (45 are) \u00b7 \u2248 AUD 7.02M",
+    size: "4,500 m\u00b2 (45 are)",
+    status: "Available",
+    certificate: "TBC \u2014 negotiating directly with owner",
+    zoning: "Pink Zone (commercial / tourism)",
+    highlights: [
+      "Pink zone \u2014 commercial/tourism",
+      "Highway frontage (edge of the main road)",
+      "Toward Pererenan beach",
+      "Large 45-are plot (owner may split ~20 are \u2014 under negotiation)",
+    ],
+    description: "Land for sale in Pererenan on the edge of the highway. 45 are, pink zone, facing toward Pererenan beach. IDR 2 billion per are. Note: owner is still deciding whether to release a ~20-are portion \u2014 size under negotiation. (Map pin approximate.)",
+    details: [
+      { label: "Land size", value: "4,500 m\u00b2 (45 are) \u2014 ~20 are portion under negotiation" },
+      { label: "Zoning", value: "Pink Zone (commercial / tourism)" },
+      { label: "Access", value: "Highway frontage" },
+      { label: "Orientation", value: "Toward Pererenan beach" },
+      { label: "Price per are", value: "IDR 2 billion" },
+      { label: "Total (45 are)", value: "IDR 90 billion" },
+    ],
+    photos: [
+      "assets/photos/lot-022-1.jpg",
+      "assets/photos/lot-022-2.jpg",
+      "assets/photos/lot-022-3.jpg",
+      "assets/photos/lot-022-4.jpg",
+      "assets/photos/lot-022-5.jpg",
+      "assets/photos/lot-022-6.jpg",
+    ],
+    videos: [],
+    coords: { lat: -8.6450, lng: 115.1220 },
+  },
+
+  {
     id: "lot-021",
     title: "Pererenan — 27.4 are, Commercial/Tourism (Pink · ITR) — 300m to Beach",
     location: "Pererenan (300 m from beach)",
