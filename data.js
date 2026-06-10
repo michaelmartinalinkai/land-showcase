@@ -22,6 +22,44 @@ const SITE = {
 
 const PROPERTIES = [
   {
+    id: "lot-019",
+    title: "Pererenan — 15 are, Yellow Zone (Freehold)",
+    location: "Pererenan",
+    price: "IDR 1.7 billion / are",
+    totalPrice: "IDR 25.5 billion (negotiable)",
+    size: "1,500 m² (15 are)",
+    status: "Available",
+    certificate: "Freehold (Hak Milik / SHM)",
+    zoning: "Yellow Zone (residential)",
+    highlights: [
+      "River view & rice-field view",
+      "Only 10 minutes to Pererenan beach",
+      "Main-road access",
+      "Freehold (SHM) — full ownership",
+    ],
+    description: "Freehold plot in Pererenan with direct main-road access plus river and rice-field views, just 10 minutes from Pererenan beach. 15 are in a yellow (residential) zone — well suited to villa development. Price negotiable.",
+    details: [
+      { label: "Land size", value: "1,500 m² (15 are)" },
+      { label: "Certificate", value: "Freehold (Hak Milik / SHM)" },
+      { label: "Zoning", value: "Yellow Zone (residential)" },
+      { label: "Road access", value: "Main road frontage" },
+      { label: "Views", value: "River + rice field" },
+      { label: "Beach", value: "10 min to Pererenan beach" },
+      { label: "Price per are", value: "IDR 1.7 billion" },
+      { label: "Total price", value: "IDR 25.5 billion (negotiable)" },
+    ],
+    photos: [
+      "assets/photos/lot-019-1.jpg",
+      "assets/photos/lot-019-2.jpg",
+      "assets/photos/lot-019-3.jpg",
+      "assets/photos/lot-019-4.jpg",
+      "assets/photos/lot-019-5-sitemap.jpg",
+    ],
+    videos: [],
+    coords: { lat: -8.6277124, lng: 115.1348244 },
+  },
+
+  {
     id: "lot-001",
     title: "Tumbakbayuh — 16 are, Mixed Zone (Pink + Yellow)",
     location: "Tumbakbayuh",
